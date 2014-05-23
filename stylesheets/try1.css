@@ -2,6 +2,66 @@
 	margin:opx;
 	padding:0px;
 }
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+font-family: 'Vegur Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Vegur Regular'), url('fonts/Vegur-R 0.602.woff') format('woff');
+}
+@font-face {
+font-family: 'Vegur Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Vegur Medium'), url('fonts/Vegur-M 0602.woff') format('woff');
+}
+@font-face {
+font-family: 'Vegur Light';
+font-style: normal;
+font-weight: normal;
+src: local('Vegur Light'), url('fonts/Vegur-L 0602.woff') format('woff');
+}
+@font-face {
+font-family: 'Vegur Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Vegur Bold'), url('fonts/Vegur-B 0.602.woff') format('woff');
+}
+@font-face {
+    font-family: 'NikaiaRegular';
+    src: url('Nikaia-webfont.eot');
+    src: url('fonts/Nikaia-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Nikaia-webfont.woff') format('woff'),
+         url('fonts/Nikaia-webfont.ttf') format('truetype'),
+         url('fonts/Nikaia-webfont.svg#NikaiaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'NikaiaRegularItalic';
+    src: url('fonts/Nikaia_italic-webfont.eot');
+    src: url('fonts/Nikaia_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Nikaia_italic-webfont.woff') format('woff'),
+         url('fonts/Nikaia_italic-webfont.ttf') format('truetype'),
+         url('fonts/Nikaia_italic-webfont.svg#NikaiaRegularItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+font-family: 'TitilliumText14l';
+src: url("fonts/TitilliumText250wt.otf") format("opentype");
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+font-family: 'TitilliumText14l800';
+src: url("fonts/TitilliumText800wt.otf") format("opentype");
+    font-weight:normal;
+    font-style:normal;
+}
 nav,section{
 	display:block;
 }
@@ -33,6 +93,27 @@ body{
 	-moz-box-pack:left;
 }
 
+#userid {
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 90deg, #3f4245 0%, #242628 100%);
+    background-image: -webkit-linear-gradient( 90deg,#242628  0%, #1b1d1e 100%);
+    background-image: -ms-linear-gradient( 90deg, #3f4245 0%, #242628 100%);
+    border-bottom: 1px solid #3f4245;
+    box-shadow: 0px 0px 4px 0px rgb( 0, 0, 0 );
+    position:relative;  
+    top:40px;  
+    width: auto;
+    text-align:right;
+    height: 22px;
+    padding:5px;
+    padding-top:3px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:5px;
+    text-decoration:none;
+    margin-right:25px;     
+}
+
 a.a1:link    {color:#e6e3bb;}
 a.a1:visited {color:#e6e3bb;}
 a.a1:hover   {color:#8e4423;}
@@ -42,6 +123,12 @@ img.a2:active{width:6px;height:15px;}
 img.a2:hover{width:7px;height:16px;}
 
 img.a3:hover{width:86px;height:25px;}
+
+img.a4:hover{width:81px;height:37px;}
+img.a4:active{width:80px;height:36px;}
+
+img.a5:hover{width:112px;height:31px;}
+
 #link0{
 	display:-webkit-box;
 	display:-moz-box;
@@ -124,16 +211,40 @@ img.a3:hover{width:86px;height:25px;}
 }
 
 #link6{
-	display:-webkit-box;
-	display:-moz-box;
 	-webkit-box-orient:vertical;
 	-moz-box-orient:vertical;
 	-webkit-box-pack:center;
 	-moz-box-pack:center;
-	margin-left:190px;
+	margin-left:160px;
 	
 }
 
+#link6_1{
+	border-radius: 5px;
+    background-image: -moz-linear-gradient( 90deg, #3f4245 0%, #242628 100%);
+    background-image: -webkit-linear-gradient( 90deg,#242628  0%, #1b1d1e 100%);
+    background-image: -ms-linear-gradient( 90deg, #3f4245 0%, #242628 100%);
+    border-bottom: 1px solid #3f4245;
+    box-shadow: 0px 0px 4px 0px rgb( 0, 0, 0 );
+    position:relative;  
+	background:none;
+    border:none;
+    color:#7b7a6d;
+    font-family: "myriad pro";
+    font-size:13px;
+    top:20px;  
+    width:auto;
+    text-align:center;
+    height: 22px;
+    padding:5px;
+    padding-top:3px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:5px;
+    text-decoration:none;   
+	display:-webkit-box;
+	display:-moz-box;
+}
 #link7{
 	display:-webkit-box;
 	display:-moz-box;
@@ -437,10 +548,9 @@ iframe{
 }
 
 #chl2_side_1{
-	background-image:url(images/Shape-2@2x.png);
-	background-repeat:no-repeat;
+	
 	height:41px;
-	width:281px;
+	width:271px;
 	margin-top:12px;
 	display:-webkit-box;
 	display:-moz-box;
@@ -449,17 +559,71 @@ iframe{
 }
 
 #chl2_side_1_1{
+	 border-radius:5px;
+    border:1px solid #3f3e3d;
+	padding:0px;
+	width:245px;
+	background-image: -moz-linear-gradient( 90deg, #2a2d2f, #232628 100%);
+	background-image: -webkit-linear-gradient( 90deg, #2a2d2f 0%, #232628 100%);
+	background-image: -ms-linear-gradient( 90deg, #2a2d2f 0%, #232628 100%);
 	display:-webkit-box;
 	display:-moz-box;
-	-webkit-box-flex:1;
 }
+#emailtext{
+	background:none;
+    border:none;
+    padding:10px;
+    color:#7b7a6d;
+    font-family: "myriad pro";
+    font-size:13px;
+	width:140px;
+    border-radius:5px;    
+}
+
+/*#signup
+{
+    background-image: -moz-linear-gradient( 90deg, #692d17 0%, #b2592e 100%);
+    background-image: -webkit-linear-gradient( 90deg, #692d17 0%, #b2592e 100%);
+    background-image: -ms-linear-gradient( 90deg, #692d17 0%, #b2592e 100%);
+    border:none;
+    border-top: 1px solid #c07854;
+    padding:10px;
+    box-shadow: -2.993px -0.209px 3px 0px rgba( 0, 0, 0 ,0.5);
+    border-radius:5px;
+    color:white;
+    font-family: 'nikaiaregularitalic';
+    font-size:13px;
+    text-align:right;
+}*/
 
 #chl2_side_1_2{
 	display:-webkit-box;
 	display:-moz-box;
-	margin-right:2px;
+	margin-left:2px;
 }
-
+#tweet
+{
+	position: relative;
+	display:-webkit-box;
+    width:390px;
+    border: 1px solid #3f3e3d;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin-left: 16px;
+    background-image: -moz-linear-gradient( 90deg, #2a2d2f, #232628 100%);
+	background-image: -webkit-linear-gradient( 90deg, #2a2d2f 0%, #232628 100%);
+	background-image: -ms-linear-gradient( 90deg, #2a2d2f 0%, #232628 100%);
+	font:italic 14px "Myriad Pro";
+	color:#6f6f64;
+	padding:10px;
+}
+#tweet strong
+{
+color:#e6e3bb;
+}
 #chl2_side_2{
 	height:70px;
 	width:495px;
@@ -490,8 +654,9 @@ iframe{
 
 .imge{
 	position: relative; 
-	top:41px;
-	left:394px;
+	top:15px;
+	margin-right:-09px;
+	float:right;
 	width:25px;
 	height:25px;
 	opacity:0.2;
