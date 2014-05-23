@@ -52,7 +52,6 @@ img.a5:hover{width:112px;height:31px;}
 #link0{
 	display:-webkit-box;
 	display:-moz-box;
-	display:-ms-box;
 	-webkit-box-orient:vertical;
 	-moz-box-orient:vertical;
 	margin-left:22px;
@@ -208,7 +207,7 @@ img.a5:hover{width:112px;height:31px;}
 
 
 #new_div1{
-	margin-top:-25px;
+	margin-top:-50px;
 	display:-webkit-box;
 	-webkit-box-orient:horizontal;
 	-webkit-box-pack:center;
