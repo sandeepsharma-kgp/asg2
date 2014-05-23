@@ -10,8 +10,9 @@ nav,section{
 	display:-webkit-box;
 	display:-moz-box;
 	-webkit-box-pack:center;
-	-webkit-box-orient:vertical;
 	-moz-box-pack:center;
+	-webkit-box-orient:vertical;
+	-moz-box-orient:vertical;
 	margin-top:0px;
 	
 }
@@ -143,6 +144,7 @@ img.a5:hover{width:112px;height:31px;}
 	border-radius: 5px;
     background-image: -moz-linear-gradient( 90deg, #3f4245 0%, #242628 100%);
     background-image: -webkit-linear-gradient( 90deg,#242628  0%, #1b1d1e 100%);
+    background-image: -moz-linear-gradient( 90deg,#242628  0%, #1b1d1e 100%);
     background-image: -ms-linear-gradient( 90deg, #3f4245 0%, #242628 100%);
     border-bottom: 1px solid #3f4245;
     box-shadow: 0px 0px 4px 0px rgb( 0, 0, 0 );
@@ -177,14 +179,20 @@ img.a5:hover{width:112px;height:31px;}
 
 #top{
 	display:-webkit-box;
+	display:-moz-box;
 	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
 	-webkit-box-pack:center;	
+	-moz-box-pack:center;	
 }
 #wrapper{
     
 	display:-webkit-box;
+	display:-moz-box;
 	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
 	-webkit-box-pack:center;	
+	-moz-box-pack:center;	
 }
 
 
@@ -196,7 +204,9 @@ img.a5:hover{width:112px;height:31px;}
 	height:1658px;
 	width:966px;
 	display:-webkit-box;
+	display:-moz-box;
 	-webkit-box-orient:vertical;
+	-moz-box-orient:vertical;
 	
 }
 
@@ -207,19 +217,24 @@ img.a5:hover{width:112px;height:31px;}
 
 
 #new_div1{
-	margin-top:-50px;
+	margin-top:-25px;
 	display:-webkit-box;
+	display:-moz-box;
 	-webkit-box-orient:horizontal;
-	-webkit-box-pack:center;
+	-moz-box-orient:horizontal;
+	-webkit-box-pack:center;	
+	-moz-box-pack:center;	
 }
 
 #kid1{
 	margin-left:10px;
 	display:-webkit-box;
+	display:-moz-box;
 }
 
 #kid2{
 	display:-webkit-box;
+	display:-moz-box;
 	margin-right:33px;
 	margin-left:33px;
 	font:italic 16px nikaia;
@@ -228,18 +243,22 @@ img.a5:hover{width:112px;height:31px;}
 
 #kid3{
 	display:-webkit-box;
+	display:-moz-box;
 	margin-right:5px;
 }
 
 #new_div2{
 	display:-webkit-box;
+	display:-moz-box;
 	margin-top:15px;
 	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
 	max-width:966px;
 }
 
 #child1{
 	display:-webkit-box;
+	display:-moz-box;
 	width:126px;
 	height:104px;
 	margin:20px;
@@ -248,6 +267,7 @@ img.a5:hover{width:112px;height:31px;}
 
 #child2{
 	display:-webkit-box;
+	display:-moz-box;
 	width:126px;
 	height:104px;
 	margin-left:10px;
@@ -255,6 +275,7 @@ img.a5:hover{width:112px;height:31px;}
 }
 #child3{
 	display:-webkit-box;
+	display:-moz-box;
 	width:126px;
 	height:104px;	
 	margin:20px
@@ -271,11 +292,14 @@ img.a5:hover{width:112px;height:31px;}
 
 #child4_ver1{
 	display:-webkit-box;
-	-webkit-box-orient:horizontal;	
+	display:-moz-box;
+	-webkit-box-orient:horizontal;
+	-moz-box-orient:horizontal;
 }
 
 #child4_ver1_h1{
 	display:-webkit-box;
+	display:-moz-box;
 	width:25px;
 	height:40px;
 }
@@ -331,6 +355,7 @@ img.a5:hover{width:112px;height:31px;}
 	-webkit-box-pack:center;
 	-moz-box-pack:center;	
 	-webkit-box-flex:1;
+	-moz-box-flex:1;
 }
 
 #chl1_1{
@@ -449,6 +474,7 @@ iframe{
 #chl2_img1{
 	margin-top:2px;
 	display:-webkit-box;
+	display:-moz-box;
 	width:12px;
 	height:205px;
 	display:-moz-box;
@@ -485,6 +511,7 @@ iframe{
 	width:245px;
 	background-image: -moz-linear-gradient( 90deg, #2a2d2f, #232628 100%);
 	background-image: -webkit-linear-gradient( 90deg, #2a2d2f 0%, #232628 100%);
+	background-image: -moz-linear-gradient( 90deg, #2a2d2f 0%, #232628 100%);
 	background-image: -ms-linear-gradient( 90deg, #2a2d2f 0%, #232628 100%);
 	display:-webkit-box;
 	display:-moz-box;
@@ -500,22 +527,6 @@ iframe{
     border-radius:5px;    
 }
 
-/*#signup
-{
-    background-image: -moz-linear-gradient( 90deg, #692d17 0%, #b2592e 100%);
-    background-image: -webkit-linear-gradient( 90deg, #692d17 0%, #b2592e 100%);
-    background-image: -ms-linear-gradient( 90deg, #692d17 0%, #b2592e 100%);
-    border:none;
-    border-top: 1px solid #c07854;
-    padding:10px;
-    box-shadow: -2.993px -0.209px 3px 0px rgba( 0, 0, 0 ,0.5);
-    border-radius:5px;
-    color:white;
-    font-family: 'nikaiaregularitalic';
-    font-size:13px;
-    text-align:right;
-}*/
-
 #chl2_side_1_2{
 	display:-webkit-box;
 	display:-moz-box;
@@ -525,6 +536,7 @@ iframe{
 {
 	position: relative;
 	display:-webkit-box;
+	display:-moz-box;
     width:390px;
     border: 1px solid #3f3e3d;
 	border-radius: 5px;
@@ -535,6 +547,7 @@ iframe{
 	margin-left: 16px;
     background-image: -moz-linear-gradient( 90deg, #2a2d2f, #232628 100%);
 	background-image: -webkit-linear-gradient( 90deg, #2a2d2f 0%, #232628 100%);
+	background-image: -moz-linear-gradient( 90deg, #2a2d2f 0%, #232628 100%);
 	background-image: -ms-linear-gradient( 90deg, #2a2d2f 0%, #232628 100%);
 	font:italic 14px "Myriad Pro";
 	color:#6f6f64;
@@ -566,7 +579,9 @@ color:#e6e3bb;
 	display:-webkit-box;
 	display:-moz-box;
 	-webkit-box-pack:right;
+	-moz-box-pack:right;
 	-webkit-box-flex:1;
+	-moz-box-flex:1;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	margin-left:10px;
@@ -647,6 +662,7 @@ color:#e6e3bb;
 	margin-left:1px;
 	height:22px;
 	-webkit-box-pack:center;
+	-moz-box-pack:center;
 }
 
 #chl3_3{
@@ -691,6 +707,7 @@ margin:0px 10px;
 	font:italic 18px "Nikaia";
 	color:#8e4423;
 	-webkit-box-pack:center;
+	-moz-box-pack:center;
 }
 
 #chl4_2{
@@ -699,6 +716,7 @@ margin:0px 10px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	width:200px;
 	height:18px;
 	margin:0px;
@@ -711,6 +729,7 @@ margin:0px 10px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	width:200px;
 	height:24px;
 	margin:0px;
@@ -724,6 +743,7 @@ margin:0px 10px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	width:200px;
 	height:25px;
 	margin:0px;
@@ -737,6 +757,7 @@ margin:0px 10px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	width:200px;
 	height:15px;
 	margin:0px;
@@ -750,6 +771,7 @@ margin:0px 10px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	width:200px;
 	height:17px;
 	margin:0px;
@@ -764,6 +786,7 @@ margin:0px 10px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	height:18px;
 	margin:0px;
 	font:italic 18px "Nikaia";
@@ -777,6 +800,7 @@ margin:0px 10px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	height:10px;
 	width:195px;
 }
@@ -786,7 +810,8 @@ margin:0px 10px;
 	display:-moz-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
-	-webkit-box-pack:center;	
+	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	font:normal 13px "Myriad Pro";
 	height:14px;
 	color:#4f504b;
@@ -800,6 +825,7 @@ margin:0px 10px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	width:195px;
 	font:normal 13px "Myriad Pro";
 	height:14px;
@@ -813,6 +839,7 @@ margin:0px 10px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	width:195px;
 	color:#4f504b;
 	font:normal 13px "Myriad Pro";
@@ -828,6 +855,7 @@ margin:0px 10px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	height:18px;
 	margin:0px;
 	font:italic 18px "Nikaia";
@@ -840,6 +868,7 @@ margin:0px 10px;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
 	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	height:10px;
 	width:138px;
 }
@@ -849,7 +878,8 @@ margin:0px 10px;
 	display:-moz-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
-	-webkit-box-pack:center;	
+	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	font:normal 14px "Myriad Pro";
 	height:14px;
 	margin-top:10px;
@@ -862,7 +892,8 @@ margin:0px 10px;
 	display:-moz-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
-	-webkit-box-pack:center;	
+	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	font:normal 14px "Myriad Pro";
 	height:14px;
 	margin-top:15px;
@@ -875,7 +906,8 @@ margin:0px 10px;
 	display:-moz-box;
 	-webkit-box-orient:horizontal;
 	-moz-box-orient:horizontal;
-	-webkit-box-pack:center;	
+	-webkit-box-pack:center;
+	-moz-box-pack:center;
 	font:normal 14px "Myriad Pro";
 	height:14px;
 	margin-top:10px;
